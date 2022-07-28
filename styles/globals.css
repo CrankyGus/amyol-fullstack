@@ -1,3 +1,30 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@font-face {
+  font-family: MinimalBold;
+  src: url("./fonts/FC\ Minimal\ Bold.ttf");
+  font-weight: 500;
+}
+
+@font-face {
+  font-family: MinimalRecular;
+  src: url("./fonts/FC\ Minimal\ Regular.ttf");
+  font-weight: 500;
+}
+
+@layer base {
+  body {
+    @apply bg-gray-600;
+  }
+}
+
+@layer components {
+  .hoverBtn {
+    @apply p-4 hover:bg-white hover:text-black transition-colors duration-200;
+  }
+  .hoverBtnScroll {
+    @apply p-4 hover:bg-black  hover:text-white transition-colors duration-200;
+  }
+}
