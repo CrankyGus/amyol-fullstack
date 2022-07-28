@@ -11,12 +11,15 @@ Amyol's Homepage
 
 ```
 $PROJECT
-|
+│
 ├── api
 ├── pages
 ├── components
+    ├── Layout
 ├── public
-├── style
+    ├── fonts
+    └── assets
+└── style
 ```
 
 
