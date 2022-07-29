@@ -2,7 +2,7 @@ import Link from "next/link";
 
 const Footer = () => {
   return (
-    <div className="bg-white font-[MinimalRecular] space-x-1 h-12 flex  justify-center items-center ">
+    <div className="bg-white text-black font-[MinimalRecular] space-x-1 h-12 flex  justify-center items-center ">
       <h3>
         © 2022 by <span className="font-[MinimalBold]">AMYOL</span> DEV.
       </h3>
