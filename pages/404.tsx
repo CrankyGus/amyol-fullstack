@@ -1,4 +1,4 @@
-import Head from "Next/Head";
+import Head from "next/head";
 import Link from "next/link";
 import { useRouter } from "next/router";
 import { useEffect } from "react";
@@ -27,7 +27,7 @@ const NotFound = () => {
         className="flex  w-[200px] border-gray-400 border-4 top-[200px] "
       />
       <h1 className="font-[MinimalBold] hover:underline text-white text-[50px]">
-        4<span className="text-gray-300">0</span>4
+        4<span className="text-gray-300">0</span>4 - Page Not Found
       </h1>
       <div className="font-[MinimalRecular] text-white px-10 pb-4">
         <h1 className="text-2xl ">Hmm..</h1>
